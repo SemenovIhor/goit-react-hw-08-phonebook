@@ -1,0 +1,20 @@
+.filter {
+  display: flex;
+  justify-content: left;
+  padding: 0px 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.filter__input {
+  display: block;
+  background-color: inherit;
+  border: none;
+  border-bottom: 3px solid rgba(23, 26, 32, 0.8);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.filter__input:focus {
+  outline: none;
+}
